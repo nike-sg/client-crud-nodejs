@@ -17,13 +17,9 @@ Para rodar o projeto, é necessário instalar as dependências abaixo.
 * Para saber se você já tem o NodeJS instalado, você pode rodar o comando:
 ```
 node -v
-```
-Você pode estar com uma versão antiga do NodeJS na sua máquina rode também o comando:
-```
 npm -v
 ```
-
-Caso não retorne as versões aconselho desinstalar a versão antiga e instalar a LTS do NodeJS.
+Você pode estar com uma versão antiga do NPM na sua máquina, caso não retorne as versões aconselho desinstalar a versão antiga e instalar a LTS do NodeJS.
 
 
 ### Para rodar 
