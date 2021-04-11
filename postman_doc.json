@@ -1,0 +1,217 @@
+{
+	"info": {
+		"_postman_id": "0a961658-7d6f-4578-bc4c-5d68e630e026",
+		"name": "NodeJS API Clients",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Auth/Login",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"admin\",\n    \"password\": \"123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}login",
+					"host": [
+						"{{BASE_URL}}login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Clients",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{BASE_URL}}client",
+					"host": [
+						"{{BASE_URL}}client"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "bru",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Client by Id",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{BASE_URL}}client/60712dc4c7104fef8c25c3b8",
+					"host": [
+						"{{BASE_URL}}client"
+					],
+					"path": [
+						"60712dc4c7104fef8c25c3b8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get client by Id",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{BASE_URL}}client/607132e665a7acf25d1afa57",
+					"host": [
+						"{{BASE_URL}}client"
+					],
+					"path": [
+						"607132e665a7acf25d1afa57"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Client by Id",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Bruna1\",\n    \"birthdate\": \"1991-09-05\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}client/60712e03c7104fef8c25c3b9",
+					"host": [
+						"{{BASE_URL}}client"
+					],
+					"path": [
+						"60712e03c7104fef8c25c3b9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Client",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Nikolas\",\n    \"birthdate\": \"1992-05-11\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}client",
+					"host": [
+						"{{BASE_URL}}client"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MDcxMjMyMjIxNGY0Mjg2M2QwZTQ3ZjMiLCJpYXQiOjE2MTgwMjk3ODh9.WCA9_EEiwRE0oPZZy5qkng8f-hQPIShtKFdiJeGar2c",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "Authorization",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "64b0d96e-3711-43b5-9bb6-14b42f723535",
+			"key": "BASE_URL",
+			"value": "localhost:8080/"
+		}
+	]
+}
