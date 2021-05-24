@@ -1,0 +1,106 @@
+[{
+  "_id": {
+    "$oid": "60712e03c7104fef8c25c3b9"
+  },
+  "name": "Bruna1",
+  "birthdate": {
+    "$date": "1991-09-05T00:00:00Z"
+  },
+  "createdAt": {
+    "$date": "2021-04-10T04:48:03.125Z"
+  },
+  "updatedAt": {
+    "$date": "2021-04-10T04:48:22.542Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60712fb953b428f07eaf8b02"
+  },
+  "name": "Bruna",
+  "birthdate": {
+    "$date": "1990-09-05T00:00:00Z"
+  },
+  "createdAt": {
+    "$date": "2021-04-10T04:55:21.541Z"
+  },
+  "updatedAt": {
+    "$date": "2021-04-10T04:55:55.813Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "607132e665a7acf25d1afa57"
+  },
+  "name": "Nikolas",
+  "birthdate": {
+    "$date": "1992-05-11T00:00:00Z"
+  },
+  "createdAt": {
+    "$date": "2021-04-10T05:08:54.187Z"
+  },
+  "updatedAt": {
+    "$date": "2021-04-10T05:08:54.187Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60aae059598dce62b4f9ab93"
+  },
+  "name": "Alexandre",
+  "birthdate": {
+    "$date": "1988-02-21T00:00:00Z"
+  },
+  "createdAt": {
+    "$date": "2021-05-23T23:08:09.718Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-23T23:08:09.718Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60aae084598dce62b4f9ab94"
+  },
+  "name": "Luan",
+  "birthdate": {
+    "$date": "1994-08-23T00:00:00Z"
+  },
+  "createdAt": {
+    "$date": "2021-05-23T23:08:52.105Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-23T23:08:52.105Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60aae093598dce62b4f9ab95"
+  },
+  "name": "Camila",
+  "birthdate": {
+    "$date": "1993-11-02T00:00:00Z"
+  },
+  "createdAt": {
+    "$date": "2021-05-23T23:09:07.560Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-23T23:09:07.560Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60aae0a2598dce62b4f9ab96"
+  },
+  "name": "Gercino",
+  "birthdate": {
+    "$date": "1995-12-12T00:00:00Z"
+  },
+  "createdAt": {
+    "$date": "2021-05-23T23:09:22.291Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-23T23:09:22.291Z"
+  },
+  "__v": 0
+}]

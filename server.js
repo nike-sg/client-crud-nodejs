@@ -3,12 +3,17 @@ const cors = require('cors');
 const app = express();
 const mongoose = require('mongoose');
 
-const BASEURL = 'http://localhost:8080'
+const BASEURL = 'http://localhost:8080';
+
 mongoose.connect(
- 'mongodb+srv://admin:admin123@crudclient.ij8dd.mongodb.net/nodeApi?retryWrites=true&w=majority',
+ 'mongodb://localhost:27017/nodeApi?retryWrites=true',
  {
   useNewUrlParser: true,
   useUnifiedTopology: true
+}).then(() => {
+  console.log('Connected to database!!');
+}).catch((err)=>{
+  console.log('Connection failed!!'+ err.message);
 });
 
 app.use(cors());
