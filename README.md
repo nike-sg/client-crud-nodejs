@@ -15,7 +15,8 @@ A API contém uma autenticação JWT para poder utilizar as rotas.
 ### Dependências 
 Para rodar o projeto, é necessário instalar as dependências abaixo.
 - NodeJS [Link](https://nodejs.org/en/)
-* Para saber se você já tem o NodeJS instalado, você pode rodar o comando:
+
+Para saber se você já tem o NodeJS instalado, você pode rodar o comando:
 ```
 node -v
 npm -v
@@ -23,6 +24,7 @@ npm -v
 Você pode estar com uma versão antiga do NPM na sua máquina, caso não retorne as versões aconselho desinstalar a versão antiga e instalar a LTS do NodeJS.
 
 - Docker [Link](https://docs.docker.com/get-docker/)
+
 O uso do docker aqui é para subir o dockerfile que está presente na raiz do projeto para subir a instancia do MongoDB.
 
 
