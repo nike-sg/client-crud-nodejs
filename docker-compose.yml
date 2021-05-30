@@ -1,8 +1,17 @@
 version: '3.7'
 services:
-  mongodb_container:
+  mongodb:
     image: mongo:latest
     ports:
       - 27017:27017
     volumes:
       - ./data:/data/db
+  
+  mongo_seed:
+    image: mongo:latest
+    links:
+      - mongodb
+    volumes:
+      - ./deploy:/deploy
+    command:
+      /deploy/import.sh
