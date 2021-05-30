@@ -27,6 +27,8 @@ Você pode estar com uma versão antiga do NPM na sua máquina, caso não retorn
 
 O uso do docker aqui é para subir o dockerfile que está presente na raiz do projeto para subir a instancia do MongoDB.
 
+### Antes de baixar 
+Rode este comando `git config --global core.autocrlf input`, para que as quebras de linhas do Windows e Unix não causem problema.
 
 ### Para rodar 
 1. Abra a pasta do projeto no terminal.
