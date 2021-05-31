@@ -3,6 +3,13 @@
 Uma API de CRUD de clientes simples, utilizando as verbosidades do protocolo HTTP e incluindo HATEOAS(Hypermedia) nos retornos dos GET dos clientes, baseado no modelo *Richardson Maturity Model*. 
 A API contém uma autenticação JWT para poder utilizar as rotas.
 
+### Integrantes
+- Alexandre Martins
+- Camila Marcelino Rodrigues
+- Gercino Luiz da Silva Neto
+- Luan de Oliveira Pereira
+- Nikolas Mallmann Sugo
+
 ### Techs
 - NodeJS
 - ExpressJS
